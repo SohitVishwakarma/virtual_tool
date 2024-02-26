@@ -3,6 +3,11 @@ import Header from "@/components/Header";
 import Content from "@/components/Content"
 import Footer from "@/components/Footer";
 import Data from "@/components/Data";
+import Brand from "@/components/Brand";
+import Analysis from "@/components/Analysis";
+import Icons from "@/components/Icons";
+
+
 
 export default function Home() {
   return (
@@ -10,8 +15,12 @@ export default function Home() {
     <Navbar/>
     <Header/>
     <Content/>
+    <Analysis/>
+    <Icons/>
     <Data/>
+    <Brand/>
     <Footer/>
+    
 
     </>
   );

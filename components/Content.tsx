@@ -1,6 +1,6 @@
 const content = () => {
   return (
-    <div className="bg-sky-950 flex items-center justify-center h-screen">
+    <div className="bg-sky-950 flex items-center justify-center min-h-screen">
   <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-0">
     <h1 className="text-center sm:py-0 md:py-1 lg:py-10 text-2xl sm:text-5xl md:text-6xl lg:text-4xl xl:text-5xl font-bold leading-tight text-white">
       We Offer a Wide Range Of Services <br />
@@ -16,6 +16,7 @@ const content = () => {
     </div>
   </div>
 </div>
+
 
 
   )

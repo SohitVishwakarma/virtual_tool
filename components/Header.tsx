@@ -2,12 +2,12 @@
 
 const Header = () => {
     return (
-       
-       <div>
-         <div className="flex items-center bg-sky-950 h-dvh ">
-            <div className="  text-white w-1/4 space-x-4 ">
-                <h1 className=" items-stretch font-bold text-large  space-x-2 text-7xl m-10">Generate The Best Leads With Our<span className="text-gray-900 font-bold text-5xl bg-amber-700">Akpager</span></h1>
-                <p className="items-center font-bold text-large ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totame</p>
+       <>
+              
+            <div className="flex items-center bg-sky-950 h-dvh  ">
+            <div className=" text-white w-1/3  space-x-4 ">
+                <h1 className="items-stretch font-bold text-large  space-x-2 text-7xl m-10">Generate The Best Leads With Our <span className="text-gray-900 font-bold text-5xl rounded-2xl bg-amber-700">Akpager</span></h1>
+                <p className=" ml-10 items-center font-bold text-large ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totame</p>
                 <br />
                 <div className=" flex">
                 <div className=" items-center">
@@ -43,7 +43,7 @@ const Header = () => {
             </div>
             <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
                 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-                    <h2 className="mt-10  text-2xl font-bold leading-9 tracking-tight text-gray-900">
+                    <h2 className="mt-10  text-2xl font-bold leading-9 tracking-tight text-white">
                         Signup Now
                     </h2>
                     <p className="text-gray-300 text-1xl font-normal space-x-0">Ready to Register Our Landsio Services</p>
@@ -96,7 +96,7 @@ const Header = () => {
                         {/* radio button */}
                         <div className="flex items-center mb-4 p-2 space-x-2">
                             <input type="radio" name="default-radio" className="form-checkbox h-5 w-5 text-green-600" />
-                          <label htmlFor="">  <p> i've read and agreed to <a  className="font-bold underline text-blue-700" href="#">Terms $ Conditions</a></p></label>
+                          <label htmlFor="">  <p className="text-white"> i've read and agreed to <a  className="font-bold underline text-white" href="#">Terms $ Conditions</a></p></label>
                         </div>
 
                            {/*    <div class="flex items-center mb-4">
@@ -105,9 +105,13 @@ const Header = () => {
                              </div> */}
                        
 
-                    <button className="
-                     inline-flex  justify-center bg-blue-500  border-white px-4 border border-transparent text-large  rounded-2xl text-white  py-4  text-xl font-bold leading-none
-                     ">Register</button>
+                       <a href="#_" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white border-2  rounded-full hover:text-white group hover:bg-gray-50">
+<span className="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+</span>
+<span className="relative">Register !</span>
+</a>
 
                     </div>
                     <br />
@@ -125,9 +129,22 @@ const Header = () => {
             </div>
         </div>
         
-       </div>
        
+       
+       </>
+
     )
 }
 
 export default Header
+
+
+
+/* 
+
+
+<div>
+   <label for='name'>Name:</label>
+   <input type='text' id='name' name='name' value={formValues.name} onChange={handleInputChange}/>
+</div>
+*/
