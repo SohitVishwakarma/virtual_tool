@@ -9,15 +9,13 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-blue-500 to-purple-500 text-white">
-      <div className="container mx-auto flex items-center justify-between p-4">
-        <div className="flex items-center space-x-4">
-          <img src="https://webtendtheme.net/html/2024/akpager/assets/images/logos/logo2.png" alt="Logo" />
-          {/* <span className="hover:text-2xl text-xl font-semibold">Akpager</span> 
-          // use if above code not run properly
-          */}
-          
-        </div>
+    <header className="bg-gradient-to-r from-blue-300 to-purple-500 text-white">
+      <div className="container mx-auto flex items-center justify-between p-3.5">
+      <div className="flex items-center space-x-4">
+  <img className='brandlogo' src="https://webtendtheme.net/html/2024/akpager/assets/images/logos/logo2.png" alt="Logo" />
+</div>
+
+
 
         {/* Button to toggle the menu on small screens */}
         <nav className="text-xl flex items-center space-x-4 lg:hidden">
@@ -60,7 +58,7 @@ const Navbar: React.FC = () => {
               name="search"
               id="search"
               placeholder="Search"
-              className="px-3 py-1   rounded-lg"
+              className="px-3 py-1 text-black font-mono  border-none   rounded-lg"
             />
           </div>
           <h1 className="font-bold text-lg cursor-pointer select-none m-2">Support</h1>
