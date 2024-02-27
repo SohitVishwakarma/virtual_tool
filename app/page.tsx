@@ -17,7 +17,6 @@ export default function Home() {
     <Header/>
     <Content/>
     <Analysis/>
-  
     <Data/>
     <Brand/>
     <Main/>

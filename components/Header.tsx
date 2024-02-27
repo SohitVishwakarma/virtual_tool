@@ -2,6 +2,7 @@ const Header = () => {
     return (
        <div className="bg-gradient-to-r from-blue-500 via-blue-700 to-indigo-950 text-white min-h-screen flex flex-col lg:flex-row">
             {/* Left Section */}
+            
             <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
                 <h1 className="font-bold text-4xl lg:text-6xl mb-4 lg:mb-8">Generate The Best Leads With Our <span className="text-gray-900 font-bold text-3xl lg:text-5xl rounded-2xl bg-amber-700">Akpager</span></h1>
                 <p className="font-bold text-lg lg:text-xl mb-8">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totame</p>
@@ -22,10 +23,11 @@ const Header = () => {
             </div>
 
             {/* Right Section */}
-            <div className="w-full mt-32 lg:w-1/2 p-8">
+            
+            <div className=" mb-4 rounded-3xl mr-5 text-black bg-white mt-32 lg:w-1/2 p-8">
                 <div className="sm:w-full sm:max-w-sm mx-auto">
-                    <h2 className="mt-10 text-2xl lg:text-3xl font-bold leading-9 tracking-tight">Signup Now</h2>
-                    <p className="text-gray-300 text-lg lg:text-xl mb-6">Ready to Register Our Landsio Services</p>
+                    <h2 className=" font-sans mt-10 text-2xl lg:text-3xl font-bold leading-9 tracking-tight">Sign up Now</h2>
+                    <p className="text-slate-800 text-lg lg:text-xl mb-6">Ready to Register Our Landsio Services</p>
                     <div className="mt-4">
                         <div className="relative mt-2 rounded-md shadow-sm">
                             <input
@@ -52,7 +54,11 @@ const Header = () => {
                                 placeholder="Enter Your Phone Number"
                             />
                         </div>
+                        
                     </div>
+                   
+                    
+                    
                     <div className="mt-4">
                         <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700">
                             Register Now

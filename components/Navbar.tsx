@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const Navbar: React.FC = () => {
@@ -31,9 +32,9 @@ const Navbar: React.FC = () => {
           id="navMenu"
           className={`lg:flex lg:text-xl lg:items-center lg:space-x-4 ${isMenuOpen ? 'block' : 'hidden'}`}
         >
-          <a href="/" className="hover:text-black">
+          <Link href="/users" className="hover:text-black">
             Home
-          </a>
+          </Link>
           <a href="/" className="hover:text-black">
             Page
           </a>

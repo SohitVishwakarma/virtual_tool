@@ -9,7 +9,7 @@ const Content = () => {
                     Designed to Optimize Your Business <br />
                     and Achieve Your <span className="text-sky-300 font-bold">Goals</span>
                 </h1>
-                <p className="text-neutral-400 text-1xl sm:text-xl text-center font-normal">
+                <p className="text-neutral-400 text-1xl sm:text-xl text-center ">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                     accusantium doloremque laudantium totam rem <br /> aperiam eaque quae
                     abillo inventore veritatis et quasi architecto beatae vitae dicta sunt
