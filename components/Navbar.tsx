@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
     <header className="bg-gradient-to-r from-blue-300 to-purple-500 text-white">
       <div className="container mx-auto flex items-center justify-between p-3.5">
       <div className="flex items-center space-x-4">
-  <img className='brandlogo' src="https://webtendtheme.net/html/2024/akpager/assets/images/logos/logo2.png" alt="Logo" />
+  <img className='brandlogo' src="https://webtendtheme.net/html/2024/akpager/assets/images/logos/logo2.png"   alt="Logo" />
 </div>
 
 
