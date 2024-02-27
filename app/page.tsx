@@ -6,6 +6,7 @@ import Data from "@/components/Data";
 import Brand from "@/components/Brand";
 import Analysis from "@/components/Analysis";
 import Icons from "@/components/Icons";
+import Main from "@/components/Main";
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
     <Icons/>
     <Data/>
     <Brand/>
+    <Main/>
     <Footer/>
     
 

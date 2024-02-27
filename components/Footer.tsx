@@ -9,16 +9,16 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="list-none">
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300">
                 <a href="#">Product</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Services</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">About Us</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Benefits</a>
               </li>
             </ul>
@@ -27,16 +27,16 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="list-none">
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Features</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Pricing Plan</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300">
                 <a href="#">Best Program</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Press Kit</a>
               </li>
             </ul>
@@ -45,16 +45,16 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="list-none">
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">About</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300">
                 <a href="#">Team Member</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Reviews</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Latest News</a>
               </li>
             </ul>
@@ -64,16 +64,16 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Social</h3>
             <ul className="list-none">
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Facebook</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Twitter</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">Instagram</a>
               </li>
-              <li className="mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+              <li className="mb-2 transition duration-300 ease-in-out transform hover:text-yellow-300 ">
                 <a href="#">LinkedIn</a>
               </li>
             </ul>
