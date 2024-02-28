@@ -2,7 +2,7 @@ import React from 'react'
 
 const Data = () => {
   return (
-    <div className=' ml-3 flex items-start'>
+    <div className=' ml-4 flex items-start'>
         <div className='  m-4 '>
             <h1 className='text-6xl font-bold '> Smart Way to Provide Best <br />Custome <span className='text-sky-400'>Data</span></h1><br />
             <p className=' text-xl text-stone-500 '>Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque  laudantium<br />totames aperiam eaque quae abillo inventore quasi architecto beatae vitae dicta sunt explicabos</p>
